@@ -24,3 +24,7 @@ spring:
       image:
         options:
           model: gpt-image-2
+
+jwt:
+  issuer: ${JWT_ISSUER}
+  secret_key: ${JWT_SECRET_KEY}
